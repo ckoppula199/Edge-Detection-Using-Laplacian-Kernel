@@ -1,6 +1,6 @@
 # Edge Detection Using Laplacian Kernel
 
-This program carries out edge detection by applying an image convolution kernal to a grayscale version of the image provided.
+This program carries out edge detection by applying an image convolution kernel to a grayscale version of the image provided.
 
 Technically the Laplacian kernel is:  
 [ 0 -1  0]  
