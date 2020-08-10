@@ -30,6 +30,8 @@ def edge_detection(img, row, col):
     return value * 1000
 
 image = cv2.imread('Data/test3.png')
+# Apply guassian blur to smooth image and reduce noise in the image
+image = cv2.GaussianBlur(image, (5,5), cv2.BORDER_DEFAULT)
 # Convert to greyscale for increased accuracy and simpler pixel representation
 grey_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
